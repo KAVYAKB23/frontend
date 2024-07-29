@@ -1,16 +1,15 @@
 import React from 'react'
 import Header from '../COMPONENTS/Header'
 import Footer from '../COMPONENTS/Footer'
-import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap'
 
 
 
-
-function Records() {
+function Analysis() {
   return (
     <div>
-    <Header/>
-    <div className="row">
+      <Header/>
+      <div className="row">
         <div className="col-md 1"></div>
         <div className="col-md 4" style={{fontSize:'18px', marginTop: '5px', marginLeft: '2rem', marginRight: '2rem', textAlign: 'justify'}}>
             <p>EXPENSE</p>
@@ -27,19 +26,19 @@ function Records() {
         <div className="col-md 1"></div>
     </div> 
     <div className="row mt-5">
-        {/* <div className="col-md 2"></div>
-        <div className="col-md 8 "> */}
-        <p style={{fontSize:'18px',ffontFamily:"cursive",display:'flex',textAlign:'center',justifyContent:'center'}}>No records in this month. Tap + to add new expense or income</p>
+        {/* <div className="col-md 4"></div>
+        <div className="col-md 4 "> */}
+        <p style={{fontSize:'18px',fontFamily:"cursive",display:'flex',textAlign:'center',justifyContent:'center'}}>No analysis this month</p>
         {/* </div>
-        <div className="col-md 2"></div> */}
+        <div className="col-md 4"></div> */}
     </div>
     <div className="row">
        <div className="col  d-flex justify-content-end">
         <Button style={{color:'black',backgroundColor:'#30afdd' , fontWeight: 'bold',marginRight: '10%'}}>+</Button>{' '}</div>
     </div>
-    <Footer/>
+      <Footer/>
     </div>
   )
 }
 
-export default Records
+export default Analysis
