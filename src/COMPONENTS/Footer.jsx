@@ -30,10 +30,10 @@ function Footer() {
           <br />
         </div>
         <div className="col-md 4">
-        <p className='text-light'>Contact Us</p>
+        <p className='text-light' style={{fontSize:'25px'}}>Contact Us</p>
                     <div className='d-flex mt-2'>
-                        <input style={{height:'35px'}} type="text" placeholder='Enter Mail Id' className='form-control fs-10' />
-                        <button style={{height:'35px',fontSize:'18px',marginTop:'-2px',textAlign:'center',backgroundColor:'black'}} className='btn ml-2 fs-10'>Subscribe</button>
+                        <input style={{height:'35px',fontSize:'15px'}} type="text" placeholder='Enter MailId' className='form-control' />
+                        <button style={{height:'35px',fontSize:'15px',marginTop:'-2px',textAlign:'center',backgroundColor:'black'}} className='btn ml-2 fs-10'>Subscribe</button>
 
                     </div>
                     <div className='d-flex mt-3 justify-content-between text-light'>
