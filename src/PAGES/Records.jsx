@@ -2,6 +2,9 @@ import React from 'react';
 import Header from '../COMPONENTS/Header';
 import Footer from '../COMPONENTS/Footer';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
+
+
 
 function Records() {
   return (
@@ -31,7 +34,11 @@ function Records() {
         </div>
         <div className="row">
           <div className="col-12 d-flex justify-content-end">
-            <Button className="btn btn-primary" style={{ fontWeight: 'bold', marginRight: '10%' }}>+</Button>
+          <Link to="/calculator">
+              <Button className="btn btn-primary" style={{ fontWeight: 'bold', marginRight: '10%' }}>
+                +
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

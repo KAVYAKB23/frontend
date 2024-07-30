@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from '../COMPONENTS/Header';
 import Footer from '../COMPONENTS/Footer';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+
 
 function Accounts() {
   return (
@@ -34,6 +37,11 @@ function Accounts() {
           </div>
         </div>
       </div>
+      <Link to="/calculator">
+              <Button className="btn btn-primary" style={{ fontWeight: 'bold', marginLeft: '90%',marginBottom:'5%',marginTop:'5%',color:'black' }}>
+                +
+              </Button>
+            </Link>
       <Footer />
     </div>
   );
