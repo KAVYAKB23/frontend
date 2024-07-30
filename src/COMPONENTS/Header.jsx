@@ -23,7 +23,7 @@ function Header() {
 
   return (
     <div>
-   <Navbar bg="dark" style={{height:'9%',border:'none',}}>
+   <Navbar bg="dark" style={{height:'9%',border:'none'}}>
         <Container className="d-flex align-items-center ml-2">
           <Navbar.Brand href="#home"><img src="./Images/logo.png" alt="no image"style={{ height: '150px',filter: 'brightness(1)'}} /></Navbar.Brand>
           <Nav className="d-flex justify-content-between align-items-center mx-3">

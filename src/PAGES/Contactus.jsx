@@ -8,7 +8,7 @@ function ContactUs() {
   return (
     <div className="container mt-5">
       <h5 className='d-flex justify-content-center align-items-center' style={{color:' #30afdd'}}>Contact Us</h5>
-      <p style={{fontSize:'18px',marginTop:'4%'}}>We're here to assist with any questions or concerns regarding our Calcufy application. Reach out to us for support and guidance. Your feedback helps us improve!"</p>
+      <p style={{fontSize:'18px',marginTop:'4%'}}>We're here to assist with any questions or concerns regarding our Calcufy application. Reach out to us for support and guidance. Your feedback helps us improve!</p>
       <form>
         <div className="mb-3">
           <label htmlFor="name" className="form-label" style={{fontSize:'20px'}}>Name</label>
