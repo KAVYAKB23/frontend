@@ -12,7 +12,7 @@ function Accounts() {
       <div className="container mt-4">
         <div className="row mb-4 text-center">
           <div className="col-12">
-            <h6>Overall</h6>
+            <p style= {{fontSize:'20px'}}>Overall</p>
           </div>
         </div>
         <div className="row text-center mb-4">
@@ -32,8 +32,8 @@ function Accounts() {
         </div>
         <div className="row text-center mb-4">
           <div className="col-12">
-            <h6>Accounts</h6>
-            <input type="text" className="form-control w-50 mx-auto" placeholder="Enter account name" />
+            <p style= {{fontSize:'20px'}}>Accounts</p>
+           
           </div>
         </div>
       </div>

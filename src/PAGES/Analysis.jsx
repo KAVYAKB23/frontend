@@ -3,7 +3,8 @@ import Header from '../COMPONENTS/Header';
 import Footer from '../COMPONENTS/Footer';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
-
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 
@@ -26,6 +27,15 @@ function Analysis() {
             <p className="text-primary" style={{ marginTop: '-20px' }}>₹0.00</p>
           </div>
         </div>
+        <div className="d-flex justify-content-center">
+        <DropdownButton id="dropdown-basic-button" title="EXPENSE OVERVIEW" style={{color:'black'}}>
+      <Dropdown.Item href="#/action-1" style={{color:'white'}}>Expense overview</Dropdown.Item>
+      <Dropdown.Item href="#/action-2" style={{color:'white'}}>Income overview</Dropdown.Item>
+      <Dropdown.Item href="#/action-3" style={{color:'white'}}>Expense flow</Dropdown.Item>
+      <Dropdown.Item href="#/action-4" style={{color:'white'}}>Income flow </Dropdown.Item>
+      <Dropdown.Item href="#/action-5" style={{color:'white'}}>Account Analysis</Dropdown.Item>
+    </DropdownButton>
+    </div>
         <div className="row mt-5">
           <div className="col-12 text-center">
             <p style={{ fontSize: '18px', fontFamily: "cursive" }}>
